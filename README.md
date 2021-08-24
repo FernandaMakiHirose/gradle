@@ -141,3 +141,25 @@ Cria uma pasta em zip:
 - Estudo os tipos possíveis de task types
 - Utilize em conjunto com o Eclipse
 - Pratique bastante
+
+## Quiz
+Qual a principal razão para utilizar o Gradlew (Gradle Wrapper)? 
+Para que todos os desenvolvedores do time utilizem a mesma configuração do Gradle 
+
+Para que serve o BuildScript?
+Ele define a configuração do Gradle
+
+Por que você usaria um plugin no Gradle?
+Adicionar novos padrões da DSL ao Gradle
+
+Qual das seguintes tasks apenas o plugin de Application adiciona ao Gradle?
+Run
+
+É uma definição de Gradle:
+É um sistema de automação de compilação
+
+Qual das alternativas abaixo NÃO é uma vantagem quando fazemos a gestão de dependências com o Gradle?
+Utilizando a gestão de dependências você é capaz de fazer a configuração do seu Gradle corretamente
+
+Por que você usaria Task Types?
+Para desenvolver tasks com ações comuns já pré configuradas pelo Gradle, como gerar um arquivo zip
