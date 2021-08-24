@@ -46,6 +46,25 @@ Executar a segunda task:
 Executar todas as tasks:
 >gradle tasks
 
+Realiza todo esse processo de uma vez só:
+>gradle generateRelease
+
+## aula 3 02-tasks-dependencies
+Para executar uma task: `task` + `nome da task`
+
+## aula 3 03-task-types
+Deletar a pasta `build`:
+>gradle deleteBuild
+
+Gera a pasta `build`:
+>gradle build
+
+Cria a pasta `Release`
+>gradle copyBuild
+
+Cria uma pasta em zip:
+>gradle zipReleaseToTestTeam
+
 ## Instalação do Gradle 
 1) Faça o [download](https://gradle.org/install/)
 2) Siga o passo a passo da configuração das variáveis de ambiente [aqui](https://gist.github.com/DenysNunes/c9e33b3422ef83ba362b)
@@ -106,3 +125,19 @@ Executar todas as tasks:
 - O Gradle te permite criar suas próprias tasks utilizando a DSL
 - Muito útil quando nenhuma tasks de nenhum plugin satisfaz o que você quer fazer
 - É possível criar tasks que utilizam outras tasks já existentes em plugins
+
+## Task dependente
+- Quando a execução de uma task depende da finalização de outra
+- Para definir a ordem de execução das suas tasks
+- 3 principais configurações para definir dependências: dependsOn (a task só será inicializada quando a task que ela depende ser executada primeiro), finalizedBy (após executar uma task vai chamar outra task), mustRunAfter (a task precisa ser executada depois de uma outra task)
+
+## Task Types
+- Auxilia no desenvolvimento de tasks complexas
+- Tasks pré configuradas, como para copiar arquivos de uma pasta para outra ou gerar um zip
+- Elas são diferenciadas pelo tipo, como "task do tipo copy/zip" 
+
+## Próximos passos
+- Dê uma olhada na documentação do Gradle
+- Estudo os tipos possíveis de task types
+- Utilize em conjunto com o Eclipse
+- Pratique bastante
