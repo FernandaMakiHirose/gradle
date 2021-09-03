@@ -4,6 +4,9 @@
 - Gradle
 - IDE
 
+## Licença
+Distribuido sob a licença MIT License. Veja `LICENSE` para mais informações.
+
 ## aula1 - 01-testing-gradlew
 Instalar o Gradle na sua máquina (em um projeto que usa o Gradle):
 >./gradlew
